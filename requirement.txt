@@ -1,0 +1,11 @@
+# 导航到你的项目文件夹
+cd your-project-folder
+
+# 创建并编辑 requirements.txt 文件
+# 以下命令适用于 Linux/Mac（如 Git Bash）
+touch requirements.txt
+# 或者使用 echo 命令直接添加内容
+# echo "langchain-core" > requirements.txt
+
+# 在 Windows 命令行（CMD）中，可以使用：
+# type nul > requirements.txt
