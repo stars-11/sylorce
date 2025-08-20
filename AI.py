@@ -1,9 +1,9 @@
 from typing import List
 import streamlit as st
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_core.output_parsers import StrOutputParser 
+from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain.output_parsers import StrOutputParser 
 from langchain.schema import HumanMessage, AIMessage
-from langchain_community.chat_models import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 import time
 
 st.set_page_config(page_title="Sylorce", layout="centered")
@@ -123,4 +123,5 @@ st.markdown("""
         width: 100%;
     }
 </style>
+
 """, unsafe_allow_html=True)
